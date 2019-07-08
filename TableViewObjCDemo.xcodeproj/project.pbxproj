@@ -1,0 +1,492 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A68185B22CC871D00D4464A /* CircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A68185A22CC871D00D4464A /* CircleView.m */; };
+		2A68186022CC8D3200D4464A /* DrawViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A68185E22CC8D3200D4464A /* DrawViewController.m */; };
+		2A68186122CC8D3200D4464A /* DrawViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A68185F22CC8D3200D4464A /* DrawViewController.xib */; };
+		2A68186622CEF0DA00D4464A /* BBLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A68186522CEF0DA00D4464A /* BBLocationManager.m */; };
+		2A68186A22CEF0FA00D4464A /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A68186822CEF0FA00D4464A /* MapViewController.m */; };
+		2A68186B22CEF0FA00D4464A /* MapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A68186922CEF0FA00D4464A /* MapViewController.xib */; };
+		2A68187022CF313B00D4464A /* GolfNaviViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A68186E22CF313B00D4464A /* GolfNaviViewController.m */; };
+		2A68187122CF313B00D4464A /* GolfNaviViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A68186F22CF313B00D4464A /* GolfNaviViewController.xib */; };
+		2A68187C22D2EBE400D4464A /* DemoLocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A68187A22D2EBE400D4464A /* DemoLocationViewController.m */; };
+		2A68187D22D2EBE400D4464A /* DemoLocationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A68187B22D2EBE400D4464A /* DemoLocationViewController.xib */; };
+		2AEC7B1A22CC3B16004AC570 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AEC7B1922CC3B16004AC570 /* AppDelegate.m */; };
+		2AEC7B2022CC3B16004AC570 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AEC7B1E22CC3B16004AC570 /* Main.storyboard */; };
+		2AEC7B2222CC3B18004AC570 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AEC7B2122CC3B18004AC570 /* Assets.xcassets */; };
+		2AEC7B2522CC3B18004AC570 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AEC7B2322CC3B18004AC570 /* LaunchScreen.storyboard */; };
+		2AEC7B2822CC3B18004AC570 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AEC7B2722CC3B18004AC570 /* main.m */; };
+		2AEC7B3222CC3B44004AC570 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AEC7B3022CC3B44004AC570 /* HomeViewController.m */; };
+		2AEC7B3322CC3B44004AC570 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2AEC7B3122CC3B44004AC570 /* HomeViewController.xib */; };
+		2AEC7B3822CC3D2D004AC570 /* CustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AEC7B3622CC3D2D004AC570 /* CustomCell.m */; };
+		2AEC7B3922CC3D2D004AC570 /* CustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2AEC7B3722CC3D2D004AC570 /* CustomCell.xib */; };
+		2AEC7B3E22CC44C3004AC570 /* ProfileVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AEC7B3C22CC44C3004AC570 /* ProfileVC.m */; };
+		2AEC7B3F22CC44C3004AC570 /* ProfileVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2AEC7B3D22CC44C3004AC570 /* ProfileVC.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2A68185922CC871D00D4464A /* CircleView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CircleView.h; sourceTree = "<group>"; };
+		2A68185A22CC871D00D4464A /* CircleView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CircleView.m; sourceTree = "<group>"; };
+		2A68185D22CC8D3200D4464A /* DrawViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DrawViewController.h; sourceTree = "<group>"; };
+		2A68185E22CC8D3200D4464A /* DrawViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawViewController.m; sourceTree = "<group>"; };
+		2A68185F22CC8D3200D4464A /* DrawViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DrawViewController.xib; sourceTree = "<group>"; };
+		2A68186422CEF0DA00D4464A /* BBLocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBLocationManager.h; sourceTree = "<group>"; };
+		2A68186522CEF0DA00D4464A /* BBLocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBLocationManager.m; sourceTree = "<group>"; };
+		2A68186722CEF0F900D4464A /* MapViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		2A68186822CEF0FA00D4464A /* MapViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		2A68186922CEF0FA00D4464A /* MapViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MapViewController.xib; sourceTree = "<group>"; };
+		2A68186D22CF313B00D4464A /* GolfNaviViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GolfNaviViewController.h; sourceTree = "<group>"; };
+		2A68186E22CF313B00D4464A /* GolfNaviViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GolfNaviViewController.m; sourceTree = "<group>"; };
+		2A68186F22CF313B00D4464A /* GolfNaviViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GolfNaviViewController.xib; sourceTree = "<group>"; };
+		2A68187922D2EBE400D4464A /* DemoLocationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoLocationViewController.h; sourceTree = "<group>"; };
+		2A68187A22D2EBE400D4464A /* DemoLocationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoLocationViewController.m; sourceTree = "<group>"; };
+		2A68187B22D2EBE400D4464A /* DemoLocationViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DemoLocationViewController.xib; sourceTree = "<group>"; };
+		2AEC7B1522CC3B16004AC570 /* TableViewObjCDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableViewObjCDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AEC7B1822CC3B16004AC570 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2AEC7B1922CC3B16004AC570 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2AEC7B1F22CC3B16004AC570 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2AEC7B2122CC3B18004AC570 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2AEC7B2422CC3B18004AC570 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2AEC7B2622CC3B18004AC570 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2AEC7B2722CC3B18004AC570 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2AEC7B2F22CC3B44004AC570 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		2AEC7B3022CC3B44004AC570 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		2AEC7B3122CC3B44004AC570 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		2AEC7B3522CC3D2D004AC570 /* CustomCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomCell.h; sourceTree = "<group>"; };
+		2AEC7B3622CC3D2D004AC570 /* CustomCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomCell.m; sourceTree = "<group>"; };
+		2AEC7B3722CC3D2D004AC570 /* CustomCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomCell.xib; sourceTree = "<group>"; };
+		2AEC7B3B22CC44C3004AC570 /* ProfileVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProfileVC.h; sourceTree = "<group>"; };
+		2AEC7B3C22CC44C3004AC570 /* ProfileVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProfileVC.m; sourceTree = "<group>"; };
+		2AEC7B3D22CC44C3004AC570 /* ProfileVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileVC.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2AEC7B1222CC3B16004AC570 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A68185822CC86F800D4464A /* CircleView */ = {
+			isa = PBXGroup;
+			children = (
+				2A68185922CC871D00D4464A /* CircleView.h */,
+				2A68185A22CC871D00D4464A /* CircleView.m */,
+			);
+			path = CircleView;
+			sourceTree = "<group>";
+		};
+		2A68185C22CC8D1A00D4464A /* Draw View */ = {
+			isa = PBXGroup;
+			children = (
+				2A68185D22CC8D3200D4464A /* DrawViewController.h */,
+				2A68185E22CC8D3200D4464A /* DrawViewController.m */,
+				2A68185F22CC8D3200D4464A /* DrawViewController.xib */,
+			);
+			path = "Draw View";
+			sourceTree = "<group>";
+		};
+		2A68186222CEF0A500D4464A /* MapViewLocation */ = {
+			isa = PBXGroup;
+			children = (
+				2A68186322CEF0B400D4464A /* LocationManagerClasses */,
+				2A68186722CEF0F900D4464A /* MapViewController.h */,
+				2A68186822CEF0FA00D4464A /* MapViewController.m */,
+				2A68186922CEF0FA00D4464A /* MapViewController.xib */,
+			);
+			path = MapViewLocation;
+			sourceTree = "<group>";
+		};
+		2A68186322CEF0B400D4464A /* LocationManagerClasses */ = {
+			isa = PBXGroup;
+			children = (
+				2A68186422CEF0DA00D4464A /* BBLocationManager.h */,
+				2A68186522CEF0DA00D4464A /* BBLocationManager.m */,
+			);
+			path = LocationManagerClasses;
+			sourceTree = "<group>";
+		};
+		2A68186C22CF312600D4464A /* GolfNavi */ = {
+			isa = PBXGroup;
+			children = (
+				2A68186D22CF313B00D4464A /* GolfNaviViewController.h */,
+				2A68186E22CF313B00D4464A /* GolfNaviViewController.m */,
+				2A68186F22CF313B00D4464A /* GolfNaviViewController.xib */,
+			);
+			path = GolfNavi;
+			sourceTree = "<group>";
+		};
+		2A68187822D2EBC900D4464A /* 0. DemoLocation */ = {
+			isa = PBXGroup;
+			children = (
+				2A68187922D2EBE400D4464A /* DemoLocationViewController.h */,
+				2A68187A22D2EBE400D4464A /* DemoLocationViewController.m */,
+				2A68187B22D2EBE400D4464A /* DemoLocationViewController.xib */,
+			);
+			path = "0. DemoLocation";
+			sourceTree = "<group>";
+		};
+		2AEC7B0C22CC3B16004AC570 = {
+			isa = PBXGroup;
+			children = (
+				2AEC7B1722CC3B16004AC570 /* TableViewObjCDemo */,
+				2AEC7B1622CC3B16004AC570 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2AEC7B1622CC3B16004AC570 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2AEC7B1522CC3B16004AC570 /* TableViewObjCDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2AEC7B1722CC3B16004AC570 /* TableViewObjCDemo */ = {
+			isa = PBXGroup;
+			children = (
+				2A68187822D2EBC900D4464A /* 0. DemoLocation */,
+				2A68186C22CF312600D4464A /* GolfNavi */,
+				2A68186222CEF0A500D4464A /* MapViewLocation */,
+				2A68185C22CC8D1A00D4464A /* Draw View */,
+				2A68185822CC86F800D4464A /* CircleView */,
+				2AEC7B3A22CC44AE004AC570 /* Profile */,
+				2AEC7B2E22CC3B3A004AC570 /* Home */,
+				2AEC7B1822CC3B16004AC570 /* AppDelegate.h */,
+				2AEC7B1922CC3B16004AC570 /* AppDelegate.m */,
+				2AEC7B1E22CC3B16004AC570 /* Main.storyboard */,
+				2AEC7B2122CC3B18004AC570 /* Assets.xcassets */,
+				2AEC7B2322CC3B18004AC570 /* LaunchScreen.storyboard */,
+				2AEC7B2622CC3B18004AC570 /* Info.plist */,
+				2AEC7B2722CC3B18004AC570 /* main.m */,
+			);
+			path = TableViewObjCDemo;
+			sourceTree = "<group>";
+		};
+		2AEC7B2E22CC3B3A004AC570 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				2AEC7B3422CC3D13004AC570 /* Cell */,
+				2AEC7B2F22CC3B44004AC570 /* HomeViewController.h */,
+				2AEC7B3022CC3B44004AC570 /* HomeViewController.m */,
+				2AEC7B3122CC3B44004AC570 /* HomeViewController.xib */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		2AEC7B3422CC3D13004AC570 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				2AEC7B3522CC3D2D004AC570 /* CustomCell.h */,
+				2AEC7B3622CC3D2D004AC570 /* CustomCell.m */,
+				2AEC7B3722CC3D2D004AC570 /* CustomCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		2AEC7B3A22CC44AE004AC570 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				2AEC7B3B22CC44C3004AC570 /* ProfileVC.h */,
+				2AEC7B3C22CC44C3004AC570 /* ProfileVC.m */,
+				2AEC7B3D22CC44C3004AC570 /* ProfileVC.xib */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2AEC7B1422CC3B16004AC570 /* TableViewObjCDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AEC7B2B22CC3B18004AC570 /* Build configuration list for PBXNativeTarget "TableViewObjCDemo" */;
+			buildPhases = (
+				2AEC7B1122CC3B16004AC570 /* Sources */,
+				2AEC7B1222CC3B16004AC570 /* Frameworks */,
+				2AEC7B1322CC3B16004AC570 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TableViewObjCDemo;
+			productName = TableViewObjCDemo;
+			productReference = 2AEC7B1522CC3B16004AC570 /* TableViewObjCDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2AEC7B0D22CC3B16004AC570 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = MBA0145;
+				TargetAttributes = {
+					2AEC7B1422CC3B16004AC570 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 2AEC7B1022CC3B16004AC570 /* Build configuration list for PBXProject "TableViewObjCDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2AEC7B0C22CC3B16004AC570;
+			productRefGroup = 2AEC7B1622CC3B16004AC570 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2AEC7B1422CC3B16004AC570 /* TableViewObjCDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2AEC7B1322CC3B16004AC570 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A68186122CC8D3200D4464A /* DrawViewController.xib in Resources */,
+				2AEC7B3922CC3D2D004AC570 /* CustomCell.xib in Resources */,
+				2AEC7B2522CC3B18004AC570 /* LaunchScreen.storyboard in Resources */,
+				2A68186B22CEF0FA00D4464A /* MapViewController.xib in Resources */,
+				2AEC7B2222CC3B18004AC570 /* Assets.xcassets in Resources */,
+				2AEC7B2022CC3B16004AC570 /* Main.storyboard in Resources */,
+				2A68187122CF313B00D4464A /* GolfNaviViewController.xib in Resources */,
+				2AEC7B3F22CC44C3004AC570 /* ProfileVC.xib in Resources */,
+				2A68187D22D2EBE400D4464A /* DemoLocationViewController.xib in Resources */,
+				2AEC7B3322CC3B44004AC570 /* HomeViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2AEC7B1122CC3B16004AC570 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A68187C22D2EBE400D4464A /* DemoLocationViewController.m in Sources */,
+				2AEC7B2822CC3B18004AC570 /* main.m in Sources */,
+				2AEC7B3E22CC44C3004AC570 /* ProfileVC.m in Sources */,
+				2A68186022CC8D3200D4464A /* DrawViewController.m in Sources */,
+				2A68186A22CEF0FA00D4464A /* MapViewController.m in Sources */,
+				2A68185B22CC871D00D4464A /* CircleView.m in Sources */,
+				2AEC7B1A22CC3B16004AC570 /* AppDelegate.m in Sources */,
+				2AEC7B3822CC3D2D004AC570 /* CustomCell.m in Sources */,
+				2A68186622CEF0DA00D4464A /* BBLocationManager.m in Sources */,
+				2A68187022CF313B00D4464A /* GolfNaviViewController.m in Sources */,
+				2AEC7B3222CC3B44004AC570 /* HomeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2AEC7B1E22CC3B16004AC570 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2AEC7B1F22CC3B16004AC570 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2AEC7B2322CC3B18004AC570 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2AEC7B2422CC3B18004AC570 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2AEC7B2922CC3B18004AC570 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2AEC7B2A22CC3B18004AC570 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2AEC7B2C22CC3B18004AC570 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NV6CJSK8RC;
+				INFOPLIST_FILE = TableViewObjCDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = demo.TableView.TableViewObjCDe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2AEC7B2D22CC3B18004AC570 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NV6CJSK8RC;
+				INFOPLIST_FILE = TableViewObjCDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = demo.TableView.TableViewObjCDe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2AEC7B1022CC3B16004AC570 /* Build configuration list for PBXProject "TableViewObjCDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AEC7B2922CC3B18004AC570 /* Debug */,
+				2AEC7B2A22CC3B18004AC570 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2AEC7B2B22CC3B18004AC570 /* Build configuration list for PBXNativeTarget "TableViewObjCDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AEC7B2C22CC3B18004AC570 /* Debug */,
+				2AEC7B2D22CC3B18004AC570 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2AEC7B0D22CC3B16004AC570 /* Project object */;
+}
