@@ -13,8 +13,6 @@
 		2A68186622CEF0DA00D4464A /* BBLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A68186522CEF0DA00D4464A /* BBLocationManager.m */; };
 		2A68186A22CEF0FA00D4464A /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A68186822CEF0FA00D4464A /* MapViewController.m */; };
 		2A68186B22CEF0FA00D4464A /* MapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A68186922CEF0FA00D4464A /* MapViewController.xib */; };
-		2A68187022CF313B00D4464A /* GolfNaviViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A68186E22CF313B00D4464A /* GolfNaviViewController.m */; };
-		2A68187122CF313B00D4464A /* GolfNaviViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A68186F22CF313B00D4464A /* GolfNaviViewController.xib */; };
 		2A68187C22D2EBE400D4464A /* DemoLocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A68187A22D2EBE400D4464A /* DemoLocationViewController.m */; };
 		2A68187D22D2EBE400D4464A /* DemoLocationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A68187B22D2EBE400D4464A /* DemoLocationViewController.xib */; };
 		2AEC7B1A22CC3B16004AC570 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AEC7B1922CC3B16004AC570 /* AppDelegate.m */; };
@@ -41,9 +39,6 @@
 		2A68186722CEF0F900D4464A /* MapViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
 		2A68186822CEF0FA00D4464A /* MapViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
 		2A68186922CEF0FA00D4464A /* MapViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MapViewController.xib; sourceTree = "<group>"; };
-		2A68186D22CF313B00D4464A /* GolfNaviViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GolfNaviViewController.h; sourceTree = "<group>"; };
-		2A68186E22CF313B00D4464A /* GolfNaviViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GolfNaviViewController.m; sourceTree = "<group>"; };
-		2A68186F22CF313B00D4464A /* GolfNaviViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GolfNaviViewController.xib; sourceTree = "<group>"; };
 		2A68187922D2EBE400D4464A /* DemoLocationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoLocationViewController.h; sourceTree = "<group>"; };
 		2A68187A22D2EBE400D4464A /* DemoLocationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoLocationViewController.m; sourceTree = "<group>"; };
 		2A68187B22D2EBE400D4464A /* DemoLocationViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DemoLocationViewController.xib; sourceTree = "<group>"; };
@@ -116,16 +111,6 @@
 			path = LocationManagerClasses;
 			sourceTree = "<group>";
 		};
-		2A68186C22CF312600D4464A /* GolfNavi */ = {
-			isa = PBXGroup;
-			children = (
-				2A68186D22CF313B00D4464A /* GolfNaviViewController.h */,
-				2A68186E22CF313B00D4464A /* GolfNaviViewController.m */,
-				2A68186F22CF313B00D4464A /* GolfNaviViewController.xib */,
-			);
-			path = GolfNavi;
-			sourceTree = "<group>";
-		};
 		2A68187822D2EBC900D4464A /* 0. DemoLocation */ = {
 			isa = PBXGroup;
 			children = (
@@ -156,7 +141,6 @@
 			isa = PBXGroup;
 			children = (
 				2A68187822D2EBC900D4464A /* 0. DemoLocation */,
-				2A68186C22CF312600D4464A /* GolfNavi */,
 				2A68186222CEF0A500D4464A /* MapViewLocation */,
 				2A68185C22CC8D1A00D4464A /* Draw View */,
 				2A68185822CC86F800D4464A /* CircleView */,
@@ -267,7 +251,6 @@
 				2A68186B22CEF0FA00D4464A /* MapViewController.xib in Resources */,
 				2AEC7B2222CC3B18004AC570 /* Assets.xcassets in Resources */,
 				2AEC7B2022CC3B16004AC570 /* Main.storyboard in Resources */,
-				2A68187122CF313B00D4464A /* GolfNaviViewController.xib in Resources */,
 				2AEC7B3F22CC44C3004AC570 /* ProfileVC.xib in Resources */,
 				2A68187D22D2EBE400D4464A /* DemoLocationViewController.xib in Resources */,
 				2AEC7B3322CC3B44004AC570 /* HomeViewController.xib in Resources */,
@@ -290,7 +273,6 @@
 				2AEC7B1A22CC3B16004AC570 /* AppDelegate.m in Sources */,
 				2AEC7B3822CC3D2D004AC570 /* CustomCell.m in Sources */,
 				2A68186622CEF0DA00D4464A /* BBLocationManager.m in Sources */,
-				2A68187022CF313B00D4464A /* GolfNaviViewController.m in Sources */,
 				2AEC7B3222CC3B44004AC570 /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
